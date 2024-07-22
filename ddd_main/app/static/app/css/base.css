@@ -1,15 +1,16 @@
 :root {
-    ---ddd-main-blue: #0E0B86;
-    ---ddd-white: #ffffff;
-    ---highlighted: #00FFFF;
-    ---font-family-base: 'Spline Sans', sans-serif;
-    ---font-family-title: 'Black Han Sans', sans-serif;
+    --ddd-main-blue: #0E0B86;
+    --ddd-white: #ffffff;
+    --highlighted: #00FFFF;
+    --font-family-base: 'Spline Sans', sans-serif;
+    --font-family-title: 'Black Han Sans', sans-serif;
 }
 
 html {
     width: 100%;
     height: 100%;
     position: absolute;
+    scrollbar-width: none;
 }
 
 .global-header {
@@ -19,7 +20,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color:var(---ddd-white);
+    background-color:var(--ddd-white);
 }
 
 .main-title {
@@ -34,7 +35,7 @@ html {
 
 .main-title p {
     position: relative;
-    font-family: var(---font-family-base);
+    font-family: var(--font-family-base);
     margin-bottom: 0;
     top: 10px;
     right: 328px;
@@ -42,15 +43,27 @@ html {
 
 .main-title h1 {
     font-size: 100px;
-    font-family: var(---font-family-title);
+    font-family: var(--font-family-title);
     text-align: center;
     width: 100%;
     margin-top: 0;
 }
+.container-stud.mt-0{
+    background-color: var(--ddd-main-blue);
+    width: 100%;
+    position: relative;
+    top: -85px;
+}
+.display-3{
+    font-family: var(--font-family-base);
+    font-weight: bold;
+    color: var(--ddd-white);
+    text-align: center;
+}
 
 .social-shares.header p {
-    font-family: var(---font-family-base);
-    color: var(---ddd-main-blue);
+    font-family: var(--font-family-base);
+    color: var(--ddd-main-blue);
     margin-bottom: 0;
 }
 
@@ -76,10 +89,10 @@ html {
 
 
 /* Estilos para a barra de navegação */
-/* ----  TOMAR NOTA AQUI ---- */
+/* ---  TOMAR NOTA AQUI --- */
 .main-nav {
     width: 100%;
-    background-color: var(---ddd-main-blue);
+    background-color: var(--ddd-main-blue);
     text-align: center;
     margin-top: 10px;
 }
@@ -98,19 +111,19 @@ html {
 }
 
 .main-nav ul li a {
-    color: var(---ddd-white);
+    color: var(--ddd-white);
     text-decoration: none;
-    font-family: var(---font-family-base);
+    font-family: var(--font-family-base);
     font-size: 18px;
 }
 
 .main-nav ul li a:hover {
-    color: var(---highlighted);
+    color: var(--highlighted);
 }
 
 .global-content{
     min-height: 600px;
-    background-color: var(---ddd-white);
+    background-color: var(--ddd-white);
 }
 
 
@@ -123,12 +136,12 @@ html {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: var(---ddd-main-blue);
-    font-family: var(---font-family-base);
-    color: var(---ddd-white);
+    background-color: var(--ddd-main-blue);
+    font-family: var(--font-family-base);
+    color: var(--ddd-white);
 }
 
-/* ----  TOMAR NOTA AQUI ---- */
+/* ---  TOMAR NOTA AQUI --- */
 .global-footer .qrcode-donate,
 .global-footer .contact-us,
 .global-footer .social-shares {
@@ -192,14 +205,14 @@ html {
 @media (max-width: 1384px) {
     .main-title h1 {
         font-size: 70px;
-        font-family: var(---font-family-title);
+        font-family: var(--font-family-title);
         text-align: center;
         width: 100%;
         margin-top: 0;
     }
     .main-title p {
         position: relative;
-        font-family: var(---font-family-base);
+        font-family: var(--font-family-base);
         margin-bottom: 0;
         top: 10px;
         right: 220px;
