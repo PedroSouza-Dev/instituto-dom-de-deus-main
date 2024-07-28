@@ -220,6 +220,9 @@ html {
 
 }
 
+.global-footer .youtube-social {
+    margin: 0;
+}
 
 /*smaller pc screems*/
 @media (max-width: 1384px) {
