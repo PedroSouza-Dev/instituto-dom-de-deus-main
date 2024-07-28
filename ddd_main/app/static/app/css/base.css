@@ -72,9 +72,12 @@ html {
 
 .youtube-social {
     position: relative;
-    top:5px;
+    /*top:10px;*/
 }
 
+.global-header .youtube-social {
+    top: -100px;
+}
 
 /* Estilos para a barra de navegação */
 /* ---  TOMAR NOTA AQUI --- */
@@ -109,12 +112,29 @@ html {
     color: var(--highlighted);
 }
 
+/*conteudo principal - main*/
+.card-body {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.roman-list {
+    list-style-type: upper-roman;
+}
+
+.page-name {
+    margin-top: 50px;
+    position: relative;
+}
+
 .container-stud.mt-0{
     background-color: var(--ddd-main-blue);
     width: 100%;
     position: relative;
     top: -85px;
 }
+
 .display-3{
     font-family: var(--font-family-base);
     font-weight: bold;
@@ -126,7 +146,6 @@ html {
     min-height: 600px;
     background-color: var(--ddd-white);
 }
-
 
 /*footer features*/
 .global-footer {
