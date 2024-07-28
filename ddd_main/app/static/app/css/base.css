@@ -48,18 +48,6 @@ html {
     width: 100%;
     margin-top: 0;
 }
-.container-stud.mt-0{
-    background-color: var(--ddd-main-blue);
-    width: 100%;
-    position: relative;
-    top: -85px;
-}
-.display-3{
-    font-family: var(--font-family-base);
-    font-weight: bold;
-    color: var(--ddd-white);
-    text-align: center;
-}
 
 .social-shares.header p {
     font-family: var(--font-family-base);
@@ -119,6 +107,19 @@ html {
 
 .main-nav ul li a:hover {
     color: var(--highlighted);
+}
+
+.container-stud.mt-0{
+    background-color: var(--ddd-main-blue);
+    width: 100%;
+    position: relative;
+    top: -85px;
+}
+.display-3{
+    font-family: var(--font-family-base);
+    font-weight: bold;
+    color: var(--ddd-white);
+    text-align: center;
 }
 
 .global-content{
