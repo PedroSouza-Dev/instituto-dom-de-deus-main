@@ -13,6 +13,11 @@ html {
     scrollbar-width: none;
 }
 
+/* Aplica a fonte base a todos os elementos de texto */
+body, p, a, ul, ol, li, h1, h2, h3, h4, h5, h6, span, div {
+    font-family: var(--font-family-base);
+}
+
 .global-header {
     position: relative;
     height: 200px;
@@ -20,7 +25,7 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color:var(--ddd-white);
+    background-color: var(--ddd-white);
 }
 
 .main-title {
@@ -30,12 +35,10 @@ html {
     display: flex;
     flex-wrap: wrap;
     flex: 0.8;
-    /*margin-bottom: 75px;*/
 }
 
 .main-title p {
     position: relative;
-    font-family: var(--font-family-base);
     margin-bottom: 0;
     top: 10px;
 }
@@ -49,7 +52,6 @@ html {
 }
 
 .social-shares.header p {
-    font-family: var(--font-family-base);
     color: var(--ddd-main-blue);
     margin-bottom: 0;
 }
@@ -68,18 +70,14 @@ html {
     text-align: center;
 }
 
-
 .youtube-social {
     position: relative;
-    /*top:10px;*/
 }
 
 .global-header .youtube-social {
     top: -1px;
 }
 
-/* Estilos para a barra de navegação */
-/* ---  TOMAR NOTA AQUI --- */
 .main-nav {
     width: 100%;
     background-color: var(--ddd-main-blue);
@@ -103,7 +101,6 @@ html {
 .main-nav ul li a {
     color: var(--ddd-white);
     text-decoration: none;
-    font-family: var(--font-family-base);
     font-size: 18px;
 }
 
@@ -111,7 +108,6 @@ html {
     color: var(--highlighted);
 }
 
-/*conteudo principal - main*/
 .card-body {
     border: none !important;
     border-radius: 0 !important;
@@ -127,26 +123,24 @@ html {
     position: relative;
 }
 
-.container-stud.mt-0{
+.container-stud.mt-0 {
     background-color: var(--ddd-main-blue);
     width: 100%;
     position: relative;
     top: -85px;
 }
 
-.display-3{
-    font-family: var(--font-family-base);
+.display-3 {
     font-weight: bold;
     color: var(--ddd-white);
     text-align: center;
 }
 
-.global-content{
+.global-content {
     min-height: 600px;
     background-color: var(--ddd-white);
 }
 
-/*footer features*/
 .global-footer {
     position: relative;
     flex-wrap: wrap;
@@ -156,11 +150,9 @@ html {
     justify-content: center;
     align-items: center;
     background-color: var(--ddd-main-blue);
-    font-family: var(--font-family-base);
     color: var(--ddd-white);
 }
 
-/* ---  TOMAR NOTA AQUI --- */
 .global-footer .qrcode-donate,
 .global-footer .contact-us,
 .global-footer .social-shares {
@@ -172,15 +164,15 @@ html {
 }
 
 .qrcode-donate h1 {
-    margin: 0px 0px 5px ;
+    margin: 0px 0px 5px;
     text-align: center;
 }
 
-.qrcode-donate{
+.qrcode-donate {
     text-align: center;
 }
 
-#contacts{
+#contacts {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 0.2fr 2.8fr;
@@ -206,7 +198,7 @@ html {
 }
 
 .global-footer .social-shares.icons a img.instagram-social,
-.global-footer .social-shares.icons a img.facebook-social  {
+.global-footer .social-shares.icons a img.facebook-social {
     width: 50px;
     height: auto;
 }
@@ -216,14 +208,12 @@ html {
     height: auto;
     position: relative;
     margin-bottom: 10px;
-
 }
 
 .global-footer .youtube-social {
     margin: 0;
 }
 
-/*smaller pc screems*/
 @media (max-width: 1384px) {
     .main-title h1 {
         font-size: 70px;
@@ -234,15 +224,12 @@ html {
     }
     .main-title p {
         position: relative;
-        font-family: var(--font-family-base);
         margin-bottom: 0;
         top: 10px;
         right: 220px;
     }
-    
 }
 
-/*tablet styles*/
 @media (max-width: 1110px) {
     .main-title h1 {
         font-size: 50px;
@@ -287,22 +274,22 @@ html {
     .global-header .social-shares.header {
         display: flex;
         flex-direction: column;
-        align-items: flex-start; 
+        align-items: flex-start;
     }
 
     .global-header .social-shares.header a img.instagram-social {
-        width: 40px; 
+        width: 40px;
         height: auto;
     }
 
     .global-header .social-shares.header a img.facebook-social {
-        width: 40px;  
-        height: auto; 
+        width: 40px;
+        height: auto;
     }
 
     .global-header .social-shares.header a img.youtube-social {
-        width: 45px;  
-        height: auto; 
+        width: 45px;
+        height: auto;
         position: relative;
         right: 2px;
     }
