@@ -18,18 +18,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
 <body>
     <header class="global-header">
-        <div class="global-header logo">
+        <div class="logo">
             <img src="/static/app/assets/logo_dom_de_deus.png" alt="logo-dom-de-deus" height="200" width="180">
         </div>
 
-        <div class="global-header main-title">
+        <div class="main-title">
             <p>Instituto</p>
             <h1>Dom de Deus</h1>
         </div>
 
-        <div class="global-header social-shares">
-            <div class="social-shares header">
-                <p class="social-shares follow-us">Siga-nos: </p>
+        <div class="social-shares">
+            <div class="header">
+                <p class="follow-us">Siga-nos: </p>
                 <a href="https://www.instagram.com/institutodomdedeus/" target="_blank"><img class="social-shares instagram-social" src="/static/app/assets/instagram.png" alt="logo do instagram, click para seguir-nos"></a><!--Insta-->
                 <a href="https://www.facebook.com/proj.domdedeus/?locale=pt_BR" target="_blank"><img class="social-shares facebook-social" src="/static/app/assets/facebook.png" alt="logo do facebook, click para seguir-nos"></a><!--FB-->
                 <a href="https://www.youtube.com/@institutodomdedeus1122" target="_blank"><img class="social-shares youtube-social" src="/static/app/assets/youtube.png" alt="logo do youtube, click para seguir-nos"></a><!--YT-->
@@ -48,7 +48,8 @@
                 <li><a href="/fale_conosco/">Fale Conosco</a></li>
                 <li><a href="/apoie/">Apoie-nos</a></li>
             </ul>
-        </nav>      
+        </nav>
+
     </header>
 
     <main class="global-content">
@@ -60,131 +61,122 @@
         </div>
         <div>
             <h1>Sobre Nós</h1>
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/sobre_nos.png" class="img-fluid rounded-start" alt="crianca na escola">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <p class="card-text">O Instituto Dom de Deus foi fundado por Mylena Cavalcanti, quando tinha 15 anos de idade. Sempre foi meta transformar a realidade de crianças e adolescentes, gerando oportunidades através da educação, cultura, esportes e lazer. Trabalhamos incansavelmente para melhorar os nossos objetivos, alcançando cada vez mais o nosso público-alvo. Contamos com o apoio de voluntários, parceiros e familiares de alunos que abraçam a nossa causa.</p>
-                        </div>
-                    </div>
+            <div class="container mt-4">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="/static/app/assets/sobre_nos.png" class="img-fluid rounded" alt="crianca na escola">
+                  </div>
+                  <div class="col-md-8">
+                    <p class="text-justify">
+                      O Instituto Dom de Deus foi fundado por Mylena Cavalcanti, quando tinha 15 anos de idade. Sempre foi meta transformar a realidade de crianças e adolescentes, gerando oportunidades através da educação, cultura, esportes e lazer. Trabalhamos incansavelmente para melhorar os nossos objetivos, alcançando cada vez mais o nosso público-alvo. Contamos com o apoio de voluntários, parceiros e familiares de alunos que abraçam a nossa causa.
+                    </p>
+                  </div>
                 </div>
-            </div>
+              </div>              
         </div>
-        <div>
+        <div class="container mt-4">
             <h1>O que fazemos?</h1>
             <!--atividades educativas - text esq-->
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/atividades_educativas.png" class="img-fluid rounded-start" alt="atividades educativas">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Atividades educativas</h5>
-                            <p class="card-text">Nas atividades educativas, temos aulas de alfabetização e letramento, clube de leitura, inserção de crianças em escolas privadas parceiras e jovens na universidade, onde estudam de forma gratuita, gerando oportunidade de profissionalização e ampliando o leque da aprendizagem.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <img src="/static/app/assets/atividades_educativas.png" class="img-fluid rounded" alt="atividades educativas">
+              </div>
+              <div class="col-md-8">
+                <h5>Atividades educativas</h5>
+                <p class="text-justify">
+                  Nas atividades educativas, temos aulas de alfabetização e letramento, clube de leitura, inserção de crianças em escolas privadas parceiras e jovens na universidade, onde estudam de forma gratuita, gerando oportunidade de profissionalização e ampliando o leque da aprendizagem.
+                </p>
+              </div>
             </div>
             <!--atividades musicais e culturais - text esq-->
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/atividades_musicais_cultirais.png" class="img-fluid rounded-start" alt="atividades musicais e culturais">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Atividades musicais e culturais</h5>
-                            <p class="card-text">Atuamos com atividades educacionais, culturais e esportivas para crianças e adolescentes em situação de vulnerabilidade social, bem como o acompanhamento de suas famílias. São mais de 10 instrumentos musicais, ginástica rítmica, capoeira, ballet e diversas outras atividades. As turmas viajam para apresentações em diversos locais, sempre que convidados.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <img src="/static/app/assets/atividades_musicais_cultirais.png" class="img-fluid rounded" alt="atividades musicais e culturais">
+              </div>
+              <div class="col-md-8">
+                <h5>Atividades musicais e culturais</h5>
+                <p class="text-justify">
+                  Atuamos com atividades educacionais, culturais e esportivas para crianças e adolescentes em situação de vulnerabilidade social, bem como o acompanhamento de suas famílias. São mais de 10 instrumentos musicais, ginástica rítmica, capoeira, ballet e diversas outras atividades. As turmas viajam para apresentações em diversos locais, sempre que convidados.
+                </p>
+              </div>
             </div>
             <!--negocios sociais -text esq-->
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/negocios_sociais.png" class="img-fluid rounded-start" alt="negocios sociais">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Negócios Sociais</h5>
-                            <p class="card-text">Os negócios sociais são fonte de renda para assistidos e também para a Instituição. O trabalho com as mulheres chefes de família é uma de nossas atividades para fortalecer a base familiar de nossos assistidos. Temos a Panificadora Gourmet Flores do Cajueiro e a Estamparia DDD.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <img src="/static/app/assets/negocios_sociais.png" class="img-fluid rounded" alt="negocios sociais">
+              </div>
+              <div class="col-md-8">
+                <h5>Negócios Sociais</h5>
+                <p class="text-justify">
+                  Os negócios sociais são fonte de renda para assistidos e também para a Instituição. O trabalho com as mulheres chefes de família é uma de nossas atividades para fortalecer a base familiar de nossos assistidos. Temos a Panificadora Gourmet Flores do Cajueiro e a Estamparia DDD.
+                </p>
+              </div>
             </div>
             <!--biblioteca comunitaria - text esq-->
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/biblioteca_comunitaria.png" class="img-fluid rounded-start" alt="biblioteca comunitária">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Biblioteca comunitária</h5>
-                            <p class="card-text">Em parceria com o Instituto Cultive Suiça Brasil, temos o Centro Cultural Cultive, que atua com pintura, desenho, leituras mediadas, empréstimo de livros e contação de histórias, despertando assim, o interesse pela leitura e aprimorando a interpretação em seus mais diversos âmbitos, explorando os gêneros textuais como base de partilha.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <img src="/static/app/assets/biblioteca_comunitaria.png" class="img-fluid rounded" alt="biblioteca comunitária">
+              </div>
+              <div class="col-md-8">
+                <h5>Biblioteca comunitária</h5>
+                <p class="text-justify">
+                  Em parceria com o Instituto Cultive Suiça Brasil, temos o Centro Cultural Cultive, que atua com pintura, desenho, leituras mediadas, empréstimo de livros e contação de histórias, despertando assim, o interesse pela leitura e aprimorando a interpretação em seus mais diversos âmbitos, explorando os gêneros textuais como base de partilha.
+                </p>
+              </div>
             </div>
         </div>
-        <p><a href="/programas_projetos/">Programas e Projetos</a></p>
-        <div>
+          <p><a href="/programas_projetos/">Programas e Projetos</a></p>
+          <div class="container mt-4">
             <h1>Missão, visão e valores</h1>
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/missao.png" class="img-fluid rounded-start" alt="missão">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Missão</h5>
-                            <p class="card-text">Transformar vidas através da educação integral, visando valores baseados nos princípios éticos e morais para a formação de uma sociedade mais justa.</p>
-                        </div>
-                    </div>
-                </div>
+            <!--missao-->
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <img src="/static/app/assets/missao.png" class="img-fluid rounded" alt="missão">
+              </div>
+              <div class="col-md-8">
+                <h5>Missão</h5>
+                <p class="text-justify">
+                  Transformar vidas através da educação integral, visando valores baseados nos princípios éticos e morais para a formação de uma sociedade mais justa.
+                </p>
+              </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/visao.png" class="img-fluid rounded-start" alt="visão">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Visão</h5>
-                            <p class="card-text">Ser um ponto de apoio para famílias em vulnerabilidade social, tornando-nos um marco referencial em resultados de superação.</p>
-                        </div>
-                    </div>
-                </div>
+            <!--visao-->
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <img src="/static/app/assets/visao.png" class="img-fluid rounded" alt="visão">
+              </div>
+              <div class="col-md-8">
+                <h5>Visão</h5>
+                <p class="text-justify">
+                  Ser um ponto de apoio para famílias em vulnerabilidade social, tornando-nos um marco referencial em resultados de superação.
+                </p>
+              </div>
             </div>
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="/static/app/assets/valores.png" class="img-fluid rounded-start" alt="valores">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Valores</h5>
-                            <p class="card-text">Igualdade; cidadania; acolhimento; amor; solidariedade.</p>
-                        </div>
-                    </div>
-                </div>
+            <!--valores-->
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <img src="/static/app/assets/valores.png" class="img-fluid rounded" alt="valores">
+              </div>
+              <div class="col-md-8">
+                <h5>Valores</h5>
+                <p class="text-justify">
+                  Igualdade; cidadania; acolhimento; amor; solidariedade.
+                </p>
+              </div>
             </div>
-        </div>
-        <div>
-            <h1>Participe</h1>
-            <div class="card mb-3">
-                <img src="/static/app/assets/participe.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Faça parte do movimento de mudança e junte-se a nós na missão de oferecer um futuro brilhante para nossas crianças!</p>
-                  <p></p><a href="/seja_voluntario/">Saiba mais</a></p>
+          </div>
+          <div class="participe">
+            <div class="container mt-4">
+                <h1>Participe</h1>
+                <div class="mb-4">
+                  <img src="/static/app/assets/participe.png" class="img-fluid rounded mb-3" alt="Participe">
+                  <p class="text-justify">
+                    Faça parte do movimento de mudança e junte-se a nós na missão de oferecer um futuro brilhante para nossas crianças!
+                  </p>
+                  <p><a href="/seja_voluntario/">Saiba mais</a></p>
                 </div>
-            </div>
-        </div>
+              </div>             
+          </div>
     </main>
 
     <footer class="global-footer">

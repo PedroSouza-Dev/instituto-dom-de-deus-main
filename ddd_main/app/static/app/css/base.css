@@ -1,3 +1,4 @@
+/*caracteristicas gerais do site*/
 :root {
     --ddd-main-blue: #0E0B86;
     --ddd-white: #ffffff;
@@ -18,6 +19,7 @@ body, p, a, ul, ol, li, h1, h2, h3, h4, h5, h6, span, div {
     font-family: var(--font-family-base);
 }
 
+/*configuracoes da tag header*/
 .global-header {
     position: relative;
     height: 200px;
@@ -36,13 +38,13 @@ body, p, a, ul, ol, li, h1, h2, h3, h4, h5, h6, span, div {
     flex-wrap: wrap;
     flex: 0.8;
 }
-
+/*
 .main-title p {
     position: relative;
     margin-bottom: 0;
     top: 10px;
 }
-
+*/
 .main-title h1 {
     font-size: 100px;
     font-family: var(--font-family-title);
@@ -108,6 +110,7 @@ body, p, a, ul, ol, li, h1, h2, h3, h4, h5, h6, span, div {
     color: var(--highlighted);
 }
 
+/*configuracoes do body*/
 .card-body {
     border: none !important;
     border-radius: 0 !important;
@@ -141,6 +144,7 @@ body, p, a, ul, ol, li, h1, h2, h3, h4, h5, h6, span, div {
     background-color: var(--ddd-white);
 }
 
+/*configuracoes do footer*/
 .global-footer {
     position: relative;
     flex-wrap: wrap;
@@ -214,6 +218,7 @@ body, p, a, ul, ol, li, h1, h2, h3, h4, h5, h6, span, div {
     margin: 0;
 }
 
+/*responsividade aparelhos menores*/
 @media (max-width: 1384px) {
     .main-title h1 {
         font-size: 70px;
